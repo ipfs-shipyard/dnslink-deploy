@@ -1,0 +1,16 @@
+{
+  "name": "set-dns-records",
+  "version": "1.0.0",
+  "description": "Set the DNS records on Digital Ocean programmatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "do-wrapper": "^2.2.0",
+    "minimist": "^1.2.0"
+  }
+}

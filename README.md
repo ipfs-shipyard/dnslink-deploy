@@ -10,7 +10,7 @@ Set your DigitalOcean api key in your `.bash_profile` or your secure key file:
 Then:
 
 ```sh
-npm i -g ndslink-deploy
+npm i -g dnslink-deploy
 ```
 
 ## Usage

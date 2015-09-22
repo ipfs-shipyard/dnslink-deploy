@@ -15,5 +15,8 @@ npm i -g dnslink-deploy
 
 ## Usage
 
-* `node bin/index.js -t` Test this repo with your authentication key
-* `node bin/index.js -h sdfjlsajlfjsljf` Set a hash as the data for a TXT record
+* `dnslink-deploy -t` Test this repo with your authentication key
+* `dnslink-deploy -d ipfs.io -r test -p /ipfs/QmeQT76CZLBhSxsLfSMyQjKn74UZski4iQSq9bW7YZy6x8` Set the path as the data for a TXT record.
+    * `-d, --domain`: The domain to set.
+    * `-r, --record`: The domain record name.
+    * `-p, --path`: The path you want to set as the data.

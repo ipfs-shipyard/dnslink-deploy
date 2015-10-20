@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Set the DNS records on Digital Ocean programmatically",
   "main": "bin/index.js",
+  "keywords": ["DNS", "DigitalOcean", "DO", "records"],
   "bin": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

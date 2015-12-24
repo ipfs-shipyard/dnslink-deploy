@@ -27,6 +27,8 @@
   "dependencies": {
     "bluebird": "^2.10.0",
     "do-wrapper": "^2.2.0",
+    "is-redirect": "^1.0.0",
+    "is-success": "^1.0.0",
     "minimist": "^1.2.0"
   }
 }

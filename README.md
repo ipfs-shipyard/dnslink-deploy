@@ -22,7 +22,7 @@ npm i -g dnslink-deploy
 
 ## Contribute
 
-Help out! Dive in and [create an issue](/issues/new).
+Help out! Dive in and [create an issue](ipfs/dns-linkdeploy/issues/new).
 
 ## Usage
 

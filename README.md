@@ -8,6 +8,8 @@
 
 > Automatically set DNS records on Digital Ocean
 
+[![NPM](https://nodei.co/npm/dnslink-deploy.png)](https://nodei.co/npm/dnslink-deploy/)
+
 ## Install
 
 Set your DigitalOcean api key in your `.bash_profile` or your secure key file:

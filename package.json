@@ -4,10 +4,14 @@
   "description": "Set the DNS records on Digital Ocean programmatically",
   "main": "bin/index.js",
   "keywords": [
+    "IPFS",
+    "dnslink",
+    "TXT"
     "DNS",
     "DigitalOcean",
     "DO",
-    "records"
+    "domain",
+    "record"
   ],
   "bin": "bin/index.js",
   "scripts": {

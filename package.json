@@ -1,6 +1,6 @@
 {
   "name": "dnslink-deploy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Set the DNS records on Digital Ocean programmatically",
   "main": "bin/index.js",
   "keywords": [

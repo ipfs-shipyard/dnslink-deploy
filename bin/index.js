@@ -9,7 +9,6 @@ var argv = require('minimist')(process.argv.slice(2), {
     p: 'path'    // path
   }
 })
-
 var setDNSLib = require('../lib')({
   DOApiKey: process.env.DIGITAL_OCEAN
 })
@@ -17,7 +16,14 @@ var setDNSLib = require('../lib')({
 if (argv['test']) {
   setDNSLib.testAccountKey(argv['test'])
 } else if (argv['d'] && argv['p'] && argv['r']) {
-  setDNSLib.setDNS(argv['d'], argv['r'], argv['p'])
+  setDNSLib.testHash(argv['p'], function (err, res) {
+    if (err !== null) {
+      console.log(err)
+      process.exit(1)
+    } else {
+      setDNSLib.setDNS(argv['d'], argv['r'], argv['p'])
+    }
+  })
 } else {
   console.log('Insuffienct arguments supplied.')
   console.log('Please provide: domain, record, and path.')

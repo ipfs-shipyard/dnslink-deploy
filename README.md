@@ -3,10 +3,9 @@
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)
-
-> Automatically set DNS records on Digital Ocean
+> Set the DNS records on Digital Ocean programmatically
 
 [![NPM](https://nodei.co/npm/dnslink-deploy.png)](https://nodei.co/npm/dnslink-deploy/)
 
@@ -22,9 +21,6 @@ Then:
 npm i -g dnslink-deploy
 ```
 
-## Contribute
-
-Help out! Dive in and [create an issue](//github.com/ipfs/dnslink-deploy/issues).
 
 ## Usage
 
@@ -33,3 +29,16 @@ Help out! Dive in and [create an issue](//github.com/ipfs/dnslink-deploy/issues)
     * `-d, --domain`: The domain to set.
     * `-r, --record`: The domain record name.
     * `-p, --path`: The path you want to set as the data.
+
+
+## Contribute
+
+Help out! Dive in and [create an issue](//github.com/ipfs/dnslink-deploy/issues).
+
+### Want to hack on IPFS?
+
+[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/contributing.md)
+
+## License
+
+MIT
